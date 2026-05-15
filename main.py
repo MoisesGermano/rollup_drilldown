@@ -23,6 +23,7 @@ aplicar_css_global()
 # 3. Criação das 6 abas no topo (Navegador/Caderno Digital)
 (aba_capa, aba_o_que_sao, aba_hierarquia, 
  aba_sql, aba_diferencas, aba_dashboards) = st.tabs([
+    "Home",
     "O que são?", 
     "Hierarquia de Dados", 
     "ROLLUP no SQL", 
